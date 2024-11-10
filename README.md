@@ -1,6 +1,6 @@
 # Binary Flip Cipher
 
-The Binary Flip Cipher is a lightweight cryptographic system created for educational purposes, showcasing fundamental encryption techniques. This project transforms text by flipping bits in binary representation, allowing students to explore bitwise operations and basic cryptography.
+The Binary Flip Cipher is a lightweight cryptographic system created for educational purposes, showcasing fundamental encryption techniques. This project, implemented in Java, transforms text by flipping bits in binary representation, allowing students to explore bitwise operations and basic cryptography.
 
 ## 🔑 How It Works
 
@@ -18,6 +18,13 @@ The decryption process simply reverses these steps to recover the original plain
 Encrypting the plaintext "hello":
 - Each character goes through ASCII conversion, binary transformation, bit-flipping, and remapping to yield an encrypted output, such as "wzssp".
 
+## 📂 Project Structure
+
+The project is organized into two main Java files:
+
+1. `EncryptionDecryption.class`: Contains the core methods for encryption and decryption, implementing the binary flip logic.
+2. `BinaryFlipCipher.class`: Serves as the main interface of the program, bringing together the encryption and decryption functionality to make the cipher usable.
+
 ## ⚖️ Strengths and Limitations
 
 - Strengths: 
@@ -32,4 +39,4 @@ Encrypting the plaintext "hello":
 
 This project was developed as part of a cryptography course, aiming to introduce students to the basics of encryption and bitwise operations. While it demonstrates fundamental cryptographic concepts, the Binary Flip Cipher is not intended for secure applications and should be viewed as a learning tool.
 
---- 
+---
